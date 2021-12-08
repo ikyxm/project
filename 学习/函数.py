@@ -13,7 +13,9 @@ import random
 
 
 def generate_code():
-    #生成验证码
+    '''
+    生成验证码
+    '''
     s = 'QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890'
     code = ''
     for i in range(4):
@@ -23,6 +25,6 @@ def generate_code():
 
 #调用函数
 generate_code()
-
+help(generate_code)
 
 
