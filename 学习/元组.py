@@ -12,5 +12,7 @@ tuple 元组
 t1 = ()
 print(type(t1))
 
-t2 = (1,2,3)
-print(t2)
+t2 = (1,)   #元组只要一个元素，必须添加逗号
+print(type(t2))
+
+
